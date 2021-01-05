@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Merriweather:wght@300&display=swap');
 
 body {
-    background-image: linear-gradient(to right bottom, #00F260, #0575E6);
+    background-image: linear-gradient(to right bottom, #203A43, #4286f4);
     background-attachment: fixed;
 }
 
@@ -15,7 +15,7 @@ body {
 
 
 .app__sidebar {
-    background-color: #fff;
+    background-color: #FFEFBA;
     height: 100%;
     border-radius: 20px;
     padding: 25px 15px;
@@ -23,7 +23,7 @@ body {
 }
 
 .app__main-content {
-    background-color: #fff;
+    background-color: #FFEFBA;
     border-radius: 20px;
     padding: 25px 15px;
     box-shadow: 0 0 10px black;
