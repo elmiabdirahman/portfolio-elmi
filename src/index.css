@@ -59,7 +59,7 @@ body {
 }
 
 .sidebar__name>span {
-    color: #00F260;
+    color: #0072ff;
 }
 
 .sidebar__item {
@@ -82,7 +82,7 @@ body {
 }
 
 .sidebar__email {
-    background-image: linear-gradient(to right bottom, #00F260, #0575E6);
+    background-image: linear-gradient(to right bottom, #EA4335, #FBBC05);
 
     border-radius: 30px;
     color: #fff;
