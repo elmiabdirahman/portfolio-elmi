@@ -1,21 +1,20 @@
-import React, { Component } from 'react';
+import React, { useState } from 'react';
 
-class Navbar extends Component {
-    render() {
-        return (
-            <div className="navbar">
-                <div className="navbar__active">
-                    About
+const Navbar = () => {
+    const [active, setActive] = useState('About')
+    return (
+        <div className="navbar">
+            <div className="navbar__active">
+                    {active}
                 </div>
                 <div className="navbar__items">
-                    <div className="navbar__item">About</div>
-                    <div className="navbar__item">Resume</div>
-                    <div className="navbar__item">Projects</div>
-                    <div className="navbar__item">Contact</div>
+                    <div className="navbar__item" onClick={() => setActive('About')}>About</div>
+                    <div className="navbar__item" onClick={() => setActive('Resume')}>Resume</div>
+                    <div className="navbar__item" onClick={() => setActive('Project')}>Projects</div>
+                    <div className="navbar__item" onClick={() => setActive('Contact')}>Contact</div>
                 </div>
-            </div>
-        );
-    }
-}
+        </div>
+    );
+};
 
 export default Navbar;
