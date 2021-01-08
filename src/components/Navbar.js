@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {
-    const [active, setActive] = useState('About')
+    const [active, setActive] = useState('')
     return (
         <div className="navbar">
             <div className="navbar__active">
