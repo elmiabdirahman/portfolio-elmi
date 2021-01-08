@@ -21,6 +21,7 @@ class Sidebar extends Component {
                 <a href={resume} download="resume.pdf">
                     <div className="sidebar__item sidebar__resume">
                         <img src={tie} alt="resume" className="sidebar__icon"/>
+                        Download Resume
                     </div>
                 </a>
                 <figure className="sidebar__social-icons my-2">
