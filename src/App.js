@@ -1,9 +1,11 @@
 import React from 'react';
 import Sidebar from './components/Sidebar'
 import Navbar from './components/Navbar';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 function App() {
   return (
+    <Router>
     <div className="app">
       <div className="container">
         <div className="row">
@@ -18,6 +20,7 @@ function App() {
         </div>
       </div>
     </div>
+    </Router>
   );
 }
 
