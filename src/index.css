@@ -136,3 +136,14 @@ body {
     -webkit-text-fill-color: transparent;
 }
 
+.about {
+    padding: 20px;
+    margin: -35px;
+}
+
+.about__intro {
+    font-size: 1.1rem;
+    padding: 20px;
+    margin: 10px 0;
+}
+
